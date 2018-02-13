@@ -1,0 +1,57 @@
+body {
+	font-family: arial, sans-serif;
+}
+
+/*general nav bar*/
+ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+/*top navigation bar*/
+
+.top-bar {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float:right;
+}
+
+.nav-item {
+	display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+
+#apps-image {
+	height: 30px;
+	width: 30px;
+}
+			/*account logo set to I*/
+#nav-account {
+	background-image: "https://lh3.googleusercontent.com/-r52kiC5Kh70/AAAAAAAAAAI/AAAAAAAAAAA/ACSILjVV0BdiTMTEn8DwqMwnmYZKeJN1Pg/s32-c-mo/photo.jpg";
+	border-radius: 50%;
+}
+
+/* logo*/
+
+.logo{
+	margin: 0 auto 30px auto;
+	width: 30%;
+    padding: 10px;
+    display: block;
+}
+
+.search {
+	margin: auto;
+	text-align: center;
+}
