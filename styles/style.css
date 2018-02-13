@@ -16,23 +16,23 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    width:-moz-available;
 }
 
-.left {
+#left {
 	float: left;
 }
 
-.right {
-	float:right;
+#right {
+	float: right;
 }
 
-.nav-item {
+.nav {
 	display: block;
     padding: 8px;
-    background-color: #dddddd;
 }
 
-#apps-image {
+#apps {
 	height: 30px;
 	width: 30px;
 }
@@ -40,6 +40,21 @@ ul {
 #nav-account {
 	background-image: "https://lh3.googleusercontent.com/-r52kiC5Kh70/AAAAAAAAAAI/AAAAAAAAAAA/ACSILjVV0BdiTMTEn8DwqMwnmYZKeJN1Pg/s32-c-mo/photo.jpg";
 	border-radius: 50%;
+}
+
+/*bottom navigation bar */
+.low-nav {
+	list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    bottom: 0;
+    position: absolute;
+    width: -moz-available;
+}
+
+.nav-2 {
+	display: block;
+    padding: 8px;
 }
 
 /* logo*/
