@@ -1,7 +1,16 @@
 body {
 	font-family: arial, sans-serif;
 }
+a {
+	text-decoration: none;
+	color: #000;
+	opacity: 0.75;
+	font-size: 13px;
+}
 
+a:hover {
+	text-decoration: underline;
+}
 /*general nav bar*/
 ul {
 	list-style-type: none;
@@ -13,10 +22,10 @@ ul {
 
 .top-bar {
 	list-style-type: none;
-    margin: 0;
     padding: 0;
     overflow: hidden;
     width:-moz-available;
+    margin-top: 15px;
 }
 
 #left {
@@ -35,11 +44,16 @@ ul {
 #apps {
 	height: 30px;
 	width: 30px;
+	vertical-align: center;
 }
 			/*account logo set to I*/
-#nav-account {
-	background-image: "https://lh3.googleusercontent.com/-r52kiC5Kh70/AAAAAAAAAAI/AAAAAAAAAAA/ACSILjVV0BdiTMTEn8DwqMwnmYZKeJN1Pg/s32-c-mo/photo.jpg";
+#account {
+	width: 32px;
+	height:32px;
+	background-image: url("https://lh3.googleusercontent.com/-r52kiC5Kh70/AAAAAAAAAAI/AAAAAAAAAAA/ACSILjVV0BdiTMTEn8DwqMwnmYZKeJN1Pg/s32-c-mo/photo.jpg");
 	border-radius: 50%;
+	display: block;
+
 }
 
 /*bottom navigation bar */
