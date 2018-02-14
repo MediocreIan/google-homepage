@@ -28,20 +28,37 @@ ul {
     margin-top: 15px;
 }
 
-#left {
+.left {
 	float: left;
 }
 
-#right {
+.right {
 	float: right;
 }
 
-.nav {
+.right a,.left a {
 	display: block;
     padding: 8px;
+    vertical-align: middle;
 }
 
-#apps {
+#notifications.centered,#account.centered,#apps.centered {
+	padding-top: 0;
+}
+
+#notifications {
+	width: 32px;
+	height:32px;
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAclBMVEX///8AAACampqJiYnm5ubLy8vR0dHr6+urq6v7+/v4+Pi5ubnZ2dni4uKenp5+fn5dXV2Ojo4pKSlSUlJXV1d6eno3NzcUFBTz8/NkZGRERETW1tZycnIyMjKnp6eDg4MLCwtISEghISHDw8M9PT1paWmJo4tnAAAD20lEQVR4nO3dCXLiMBCF4QiSGBO2AEnIRlbuf8UZD0URgheN3d2v5Xr/CfQVYFnCoIsLxhhjjDHGWP/KNzl6CIpls1UoWs0y9FBUmq7DsfUUPRz53sJpb+gBCTd+Db97HaMHJdn4/QwYwnufiMsSYAhL9LDkeikFhvCCHphU1xXAEK7RQxPqvlJ4jx6aTM+VwBCe0YMTaV4jnKMHJ1LZTHHoHT04iTY1wBA26OEJNKkVTtDDE6h6rijqw3xBYfpRmH79F9bdtPXitm08qxXOEl8GTwbV64pDr7fJzvqTYaPu0DBBZL4t37moarlNa6f4sm7FVNX8Ej3s6KaPLXxFizT2ibO2vqJH/69j3ub9+bO588/jqKOvaIRG1JQ9CQBDeHL71dRWxFe0RVNKy1diwBBWDj+N9dsx/5+7uxyJS8xpzi44XeeIslztFi8UgH9vcdCsYzKTxHlPaNih5jVg25x8N6UHdELUeovuc/BG1bnIHINfbn4/JiMf+MEb+Yn+POjUL32rVh7wBi43AYaAuw1fNw9OpDUKaPEh3Af6KNZ/QS8b5uv+D0PhCgG8MQSGcAMQmgJDsAfeGgtvrYGWl5l91hebO3PhnS3Q/iW0fhE1dp6aMl1kWN2QnmZ5e1r/9IFWM0MhBGg5J16BhFdmwh1IuLMCYq4zRVZC23vun1ndf3d5FKFbj0ZCGNDqbVr/OKVuNg9rWq+bfmazhvoGCm2+xgACbT6I9c/8amfxTLHdLmlZFjuniKXhMYvHFz6gwg8DIRRocakZg4X6z/ZPwUL9x4hRq99D+qtg3NJpn/4CCjsdWkyImG22Y/obbsiVRZH+6iL+pz4UtmtIIYUUUkghhRRSSCGFFFJIIYUUUkghhRRSSCGFFFJIIYUUUkghhRRSSCGFFFJIIYUUUkghhRRSSCGFPRP2/vcWl2BgCMrnQ+CBykQPQFWiD6Ai0QtQjegHqET0BFQh+gIqEL0BxYn+gMJEj0BRok+gINErUIzoFyhE9AwUIfoGChC9AzsT/QM7ElMAdiJm6LFH1v40QfS/7cTW/l95KPQShRT6j0IK/ddeOB2kURoHljPGGGMs1bL5MKZ5+30WdLFbdcqPyCgWezob5gxOkSKF6GF2aBUFhBwyKtQgSjhAD7NDcadaA0+l7t5nBPATPchOxfyDO/Ts9O5FCNFD7FjzQQOIs4xFa5owUp4q9jWdaaJ/5oh69Yea9GIjsG5STHoqPFa9xEh3UfGrfFHqW1ge8Kvd18OZ7+ELPSjhbk4PFfxOfhosKRvtlv90y90o3X2LxsabHkyAjDHGGGOMsbP+AFFFXP+Q7qJ/AAAAAElFTkSuQmCC");
+	background-size: 28px;
+	border-radius: 50%;
+	background-repeat:no-repeat;
+	display: block;
+	padding: 0;
+	margin-left: 8px;
+	margin-right:8px;
+}
+#app-img {
 	height: 30px;
 	width: 30px;
 	vertical-align: center;
@@ -53,6 +70,9 @@ ul {
 	background-image: url("https://lh3.googleusercontent.com/-r52kiC5Kh70/AAAAAAAAAAI/AAAAAAAAAAA/ACSILjVV0BdiTMTEn8DwqMwnmYZKeJN1Pg/s32-c-mo/photo.jpg");
 	border-radius: 50%;
 	display: block;
+	padding: 0;
+	margin-left: 8px;
+	margin-right:8px;
 
 }
 
